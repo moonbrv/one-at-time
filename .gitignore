@@ -1,0 +1,19 @@
+.idea
+.DS_STORE
+.eslintcache
+
+.husky
+
+/node_modules
+
+/dist
+
+/reports/*
+
+coverage
+npm-debug.log
+npm-debug.log*
+package-lock.json
+
+# We don't want these temp files
+packages/jest-worker/src/workers/__tests__/__temp__

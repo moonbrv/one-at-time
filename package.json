@@ -1,6 +1,6 @@
 {
   "name": "@moonbrv/one-at-time",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Create function that will run only once at the same time",
   "homepage": "https://github.com/moonbrv/one-at-time",
   "bugs": "https://github.com/moonbrv/one-at-time/issues",

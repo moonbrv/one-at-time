@@ -35,5 +35,8 @@
   },
   "lint-staged": {
     "**/*": "prettier --write --ignore-unknown"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

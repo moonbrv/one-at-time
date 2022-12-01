@@ -10,6 +10,9 @@
   },
   "keywords": [],
   "main": "dist/index.js",
+  "files": [
+    "dist"
+  ],
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist --delete-dir-on-start --no-comments --minified",

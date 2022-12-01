@@ -1,15 +1,22 @@
 {
-  "name": "one-at-time",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
+  "name": "@moonbrv/one-at-time",
+  "version": "0.0.1",
+  "description": "Create function that will run only once at the same time",
+  "homepage": "https://github.com/moonbrv/one-at-time",
+  "bugs": "https://github.com/moonbrv/one-at-time/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/moonbrv/one-at-time.git"
+  },
+  "keywords": [],
+  "main": "dist/index.js",
   "scripts": {
     "test": "jest",
     "build": "babel src -d dist --delete-dir-on-start --no-comments --minified",
     "prepare": "husky install"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Dmytro Palamarchuk <moonbrv@gmail.com>",
+  "license": "MIT",
   "dependencies": {
     "hash-sum": "2.0.0"
   },
